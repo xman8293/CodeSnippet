@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE88DA67-372E-4AD3-B99F-081F26DCDBE7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lib</RootNamespace>
+    <AssemblyName>Lib</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Excel, Version=1.5.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>dll\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Maticsoft.DBUtility, Version=3.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\Maticsoft.DBUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.JScript" />
+    <Reference Include="MySql.Data, Version=6.4.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="OWC10Chart, Version=1.0.2074.16784, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\OWC10Chart.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite, Version=1.0.62.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\System.Data.SQLite.DLL</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\API.cs" />
+    <Compile Include="Api\Mac.cs" />
+    <Compile Include="Api\ResourcesApi.cs" />
+    <Compile Include="Api\Win32Private.cs" />
+    <Compile Include="Api\Win32Public.cs" />
+    <Compile Include="BarCode\BarCodeToHTML.cs" />
+    <Compile Include="Chart\Assistant.cs" />
+    <Compile Include="Chart\OWCChart11.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Config\ConfigHelper-sufei.cs" />
+    <Compile Include="Config\ConfigHelper.cs" />
+    <Compile Include="Control\BindDataControl.cs" />
+    <Compile Include="Convert\ConvertHelper.cs" />
+    <Compile Include="Convert\StringPlus.cs" />
+    <Compile Include="Cookie_Session_Cache\CacheHelper.cs" />
+    <Compile Include="Cookie_Session_Cache\CookieHelper.cs" />
+    <Compile Include="Cookie_Session_Cache\DataCache.cs" />
+    <Compile Include="Cookie_Session_Cache\SessionHelper.cs" />
+    <Compile Include="Cookie_Session_Cache\SessionHelper2.cs" />
+    <Compile Include="CSV\CsvHelper.cs" />
+    <Compile Include="DataBase\DbHelperMySQL.cs" />
+    <Compile Include="DataBase\DbHelperOleDb.cs" />
+    <Compile Include="DataBase\DbHelperSQL.cs" />
+    <Compile Include="DataBase\DbHelperSQLite.cs" />
+    <Compile Include="DataBase\DbHelperSQLP.cs" />
+    <Compile Include="DataBase\SQLHelper.cs" />
+    <Compile Include="Date\CNDate.cs" />
+    <Compile Include="DEncrypt\DEncrypt.cs" />
+    <Compile Include="DEncrypt\DESEncrypt.cs" />
+    <Compile Include="DEncrypt\Encrypt.cs" />
+    <Compile Include="DEncrypt\HashEncode.cs" />
+    <Compile Include="DEncrypt\MySecurity.cs" />
+    <Compile Include="DEncrypt\RSACryption.cs" />
+    <Compile Include="Download_Up\DownLoadHelper.cs" />
+    <Compile Include="Download_Up\FileDown.cs" />
+    <Compile Include="Download_Up\FileUp.cs" />
+    <Compile Include="Download_Up\UpLoadFiles.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Encoding\FileEncoding.cs" />
+    <Compile Include="Excel\DataToExcel.cs" />
+    <Compile Include="Excel\ExcelHelper.cs" />
+    <Compile Include="Excel\ExportExcel.cs" />
+    <Compile Include="Excel\GridViewExport.cs" />
+    <Compile Include="File\DirFileHelper.cs" />
+    <Compile Include="File\FileOperateHelper.cs" />
+    <Compile Include="File\INIFileHelper.cs" />
+    <Compile Include="FormatDate\TimeHelper.cs" />
+    <Compile Include="FTP\FTPClient.cs" />
+    <Compile Include="FTP\FTPHelper.cs" />
+    <Compile Include="FTP\FTPOperater.cs" />
+    <Compile Include="GridView\GridViewHelper.cs" />
+    <Compile Include="HttpHelper\HttpCookieHelper.cs" />
+    <Compile Include="HttpHelper\HttpHelper.cs" />
+    <Compile Include="Image\ImageClass.cs" />
+    <Compile Include="Image\ImageDown.cs" />
+    <Compile Include="Image\ImageUpload.cs" />
+    <Compile Include="Image\PicDeal.cs" />
+    <Compile Include="Internet_Url\AdslHelper.cs" />
+    <Compile Include="Internet_Url\IpHelper.cs" />
+    <Compile Include="Internet_Url\NetHelper.cs" />
+    <Compile Include="Internet_Url\UrlOper.cs" />
+    <Compile Include="JsAlert\MessageBox.cs" />
+    <Compile Include="JsAlert\ShowMessage.cs" />
+    <Compile Include="Json\ConvertJson.cs" />
+    <Compile Include="JS\ExeJsHelper.cs" />
+    <Compile Include="JS\JsHelper.cs" />
+    <Compile Include="Page\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\HTMLHelper.cs" />
+    <Compile Include="Page\HttpProc.cs" />
+    <Compile Include="Page\JavaScriptPlus.cs" />
+    <Compile Include="Page\PageHelper.cs" />
+    <Compile Include="Page\Utility.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\WebSitePathHelper.cs" />
+    <Compile Include="PinYin\EcanConvertToCh.cs" />
+    <Compile Include="PinYin\PinYin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Random\BaseRandom.cs" />
+    <Compile Include="Random\RandomHelper.cs" />
+    <Compile Include="Regex\RegexHelper.cs" />
+    <Compile Include="ResourceManager\AppMessage.cs" />
+    <Compile Include="ResourceManager\ResourceManager.cs" />
+    <Compile Include="ResourceManager\ResourceManagerWrapper.cs" />
+    <Compile Include="ResourceManager\Resources.cs" />
+    <Compile Include="Rmb\RMB.cs" />
+    <Compile Include="SegList\SegList.cs" />
+    <Compile Include="Sound\MediaHandler.cs" />
+    <Compile Include="Sqlhelper\SqlHelper.cs" />
+    <Compile Include="String\QueryString.cs" />
+    <Compile Include="String\StringHelper.cs" />
+    <Compile Include="System\SysHelper.cs" />
+    <Compile Include="Validate_Tool\FormulaExpress.cs" />
+    <Compile Include="Validate_Tool\PageValidate.cs" />
+    <Compile Include="Validate_Tool\Tools.cs" />
+    <Compile Include="Validate_Tool\ValidateImg.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Video\VideoConvert.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XML\XmlHelper.cs" />
+    <Compile Include="XML\XMLProcess.cs" />
+    <Compile Include="Yzm\YZMHelper.cs" />
+    <Compile Include="Zip\SharpZip.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dll\Excel.dll" />
+    <Content Include="dll\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="dll\itextsharp.dll" />
+    <Content Include="dll\Maticsoft.DBUtility.dll" />
+    <Content Include="dll\MySql.Data.dll" />
+    <Content Include="dll\OWC10Chart.dll" />
+    <Content Include="dll\System.Data.SQLite.DLL" />
+    <Content Include="ResourceManager\Sample.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

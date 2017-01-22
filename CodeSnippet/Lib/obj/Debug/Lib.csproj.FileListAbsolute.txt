@@ -1,0 +1,10 @@
+D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\Lib.dll
+D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\Lib.pdb
+D:\CodeSnippet\CodeSnippet\Lib\obj\Debug\Lib.dll
+D:\CodeSnippet\CodeSnippet\Lib\obj\Debug\Lib.pdb
+D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\itextsharp.dll
+D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\Maticsoft.DBUtility.dll
+D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\MySql.Data.dll
+D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\OWC10Chart.dll
+D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\System.Data.SQLite.DLL

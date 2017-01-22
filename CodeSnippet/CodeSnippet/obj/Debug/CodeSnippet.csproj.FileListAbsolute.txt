@@ -1,0 +1,14 @@
+D:\CodeSnippet\CodeSnippet\CodeSnippet\obj\Debug\CodeSnippet.csprojResolveAssemblyReference.cache
+D:\CodeSnippet\CodeSnippet\CodeSnippet\obj\Debug\CodeSnippet.Form1.resources
+D:\CodeSnippet\CodeSnippet\CodeSnippet\obj\Debug\CodeSnippet.Properties.Resources.resources
+D:\CodeSnippet\CodeSnippet\CodeSnippet\obj\Debug\CodeSnippet.csproj.GenerateResource.Cache
+D:\CodeSnippet\CodeSnippet\CodeSnippet\bin\Debug\CodeSnippet.exe
+D:\CodeSnippet\CodeSnippet\CodeSnippet\bin\Debug\CodeSnippet.pdb
+D:\CodeSnippet\CodeSnippet\CodeSnippet\bin\Debug\Lib.dll
+D:\CodeSnippet\CodeSnippet\CodeSnippet\bin\Debug\Lib.pdb
+D:\CodeSnippet\CodeSnippet\CodeSnippet\obj\Debug\CodeSnippet.exe
+D:\CodeSnippet\CodeSnippet\CodeSnippet\obj\Debug\CodeSnippet.pdb
+D:\CodeSnippet\CodeSnippet\CodeSnippet\bin\Debug\MySql.Data.dll
+D:\CodeSnippet\CodeSnippet\CodeSnippet\bin\Debug\Maticsoft.DBUtility.dll
+D:\CodeSnippet\CodeSnippet\CodeSnippet\bin\Debug\System.Data.SQLite.dll
+D:\CodeSnippet\CodeSnippet\CodeSnippet\bin\Debug\ICSharpCode.SharpZipLib.dll
