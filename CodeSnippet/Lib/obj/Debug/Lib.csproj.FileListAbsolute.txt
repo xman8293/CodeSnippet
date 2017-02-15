@@ -8,3 +8,4 @@ D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\Maticsoft.DBUtility.dll
 D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\MySql.Data.dll
 D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\OWC10Chart.dll
 D:\CodeSnippet\CodeSnippet\Lib\bin\Debug\System.Data.SQLite.DLL
+D:\CodeSnippet\CodeSnippet\Lib\obj\Debug\Lib.csprojResolveAssemblyReference.cache

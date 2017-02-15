@@ -39,7 +39,6 @@
             this.txtEngineNumber = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtAnalysis = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -140,22 +139,11 @@
             this.txtAnalysis.UseVisualStyleBackColor = true;
             this.txtAnalysis.Click += new System.EventHandler(this.txtAnalysis_Click);
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(789, 37);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1115, 539);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.txtAnalysis);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtEngineNumber);
@@ -187,7 +175,6 @@
         private System.Windows.Forms.TextBox txtEngineNumber;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button txtAnalysis;
-        private System.Windows.Forms.Button button4;
     }
 }
 

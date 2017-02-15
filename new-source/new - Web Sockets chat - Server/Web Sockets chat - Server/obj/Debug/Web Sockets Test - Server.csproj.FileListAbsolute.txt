@@ -1,0 +1,45 @@
+C:\Users\Oliver\Documents\My web socket server\Web Sockets Test - Server\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Oliver\Documents\My web socket server\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.exe
+C:\Users\Oliver\Documents\My web socket server\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.pdb
+C:\Users\Oliver\Documents\My web socket server\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.exe
+C:\Users\Oliver\Documents\My web socket server\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.pdb
+C:\Users\Oliver\Desktop\WebSocketsTest (2)\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.exe
+C:\Users\Oliver\Desktop\WebSocketsTest (2)\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.pdb
+C:\Users\Oliver\Desktop\WebSocketsTest (2)\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.exe
+C:\Users\Oliver\Desktop\WebSocketsTest (2)\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.pdb
+C:\Users\Oliver\Desktop\WebSocketsTest (2)\Web Sockets Test - Server\obj\Debug\ResolveAssemblyReference.cache
+D:\VSProjs\WebSocketsTestdraft76\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.exe
+D:\VSProjs\WebSocketsTestdraft76\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.pdb
+D:\VSProjs\WebSocketsTestdraft76\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.exe
+D:\VSProjs\WebSocketsTestdraft76\Web Sockets Test - Server\obj\Debug\ResolveAssemblyReference.cache
+D:\VSProjs\WebSocketsTestdraft76\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.pdb
+E:\Demoes\HTML5\WebSocketsTestdraft76\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.exe
+E:\Demoes\HTML5\WebSocketsTestdraft76\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.pdb
+E:\Demoes\HTML5\WebSocketsTestdraft76\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.exe
+E:\Demoes\HTML5\WebSocketsTestdraft76\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.pdb
+E:\Demoes\HTML5\WebSocketsTestdraft76\Web Sockets Test - Server\obj\Debug\ResolveAssemblyReference.cache
+D:\VSProjs\WebSocketsTestdraft76-multi\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.exe
+D:\VSProjs\WebSocketsTestdraft76-multi\Web Sockets Test - Server\obj\Debug\Web Sockets Test - Server.pdb
+D:\VSProjs\WebSocketsTestdraft76-multi\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.exe
+D:\VSProjs\WebSocketsTestdraft76-multi\Web Sockets Test - Server\bin\Debug\Web Sockets Test - Server.pdb
+D:\VSProjs\WebSocketsTestdraft76-multi\Web Sockets Test - Server\obj\Debug\ResolveAssemblyReference.cache
+D:\DMJava\DMDocs\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.exe
+D:\DMJava\DMDocs\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.pdb
+D:\DMJava\DMDocs\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.exe
+D:\DMJava\DMDocs\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.pdb
+D:\DMJava\DMDocs\Web Sockets chat - Server\obj\Debug\ResolveAssemblyReference.cache
+G:\paper\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.exe
+G:\paper\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.pdb
+G:\paper\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.exe
+G:\paper\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.pdb
+G:\paper\Web Sockets chat - Server\obj\Debug\ResolveAssemblyReference.cache
+D:\DMJava\DMDocs\new - Web Sockets chat - Server\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.exe
+D:\DMJava\DMDocs\new - Web Sockets chat - Server\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.pdb
+D:\DMJava\DMDocs\new - Web Sockets chat - Server\Web Sockets chat - Server\obj\Debug\ResolveAssemblyReference.cache
+D:\DMJava\DMDocs\new - Web Sockets chat - Server\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.exe
+D:\DMJava\DMDocs\new - Web Sockets chat - Server\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.pdb
+D:\CodeSnippet\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.exe
+D:\CodeSnippet\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.pdb
+D:\CodeSnippet\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.exe
+D:\CodeSnippet\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\bin\Debug\Web Sockets Test - Server.pdb
+D:\CodeSnippet\new-source\new - Web Sockets chat - Server\Web Sockets chat - Server\obj\Debug\Web Sockets Test - Server.csprojResolveAssemblyReference.cache

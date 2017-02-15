@@ -141,6 +141,8 @@
     <Compile Include="Json\ConvertJson.cs" />
     <Compile Include="JS\ExeJsHelper.cs" />
     <Compile Include="JS\JsHelper.cs" />
+    <Compile Include="KeyWord\KeywordDict.cs" />
+    <Compile Include="KeyWord\KeywordManager.cs" />
     <Compile Include="Page\BasePage.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -193,6 +195,7 @@
     <Content Include="dll\System.Data.SQLite.DLL" />
     <Content Include="ResourceManager\Sample.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

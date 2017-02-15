@@ -1,0 +1,8 @@
+D:\CodeSnippet\CodeSnippet\UnitTestProject\bin\Debug\UnitTestProject.dll
+D:\CodeSnippet\CodeSnippet\UnitTestProject\bin\Debug\UnitTestProject.pdb
+D:\CodeSnippet\CodeSnippet\UnitTestProject\bin\Debug\Interop.MSScriptControl.dll
+D:\CodeSnippet\CodeSnippet\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+D:\CodeSnippet\CodeSnippet\UnitTestProject\obj\Debug\Interop.MSScriptControl.dll
+D:\CodeSnippet\CodeSnippet\UnitTestProject\obj\Debug\UnitTestProject.csproj.ResolveComReference.cache
+D:\CodeSnippet\CodeSnippet\UnitTestProject\obj\Debug\UnitTestProject.dll
+D:\CodeSnippet\CodeSnippet\UnitTestProject\obj\Debug\UnitTestProject.pdb

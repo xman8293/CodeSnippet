@@ -1,0 +1,5 @@
+D:\CodeSnippet\CodeSnippet\Entity\bin\Debug\Entity.dll
+D:\CodeSnippet\CodeSnippet\Entity\bin\Debug\Entity.pdb
+D:\CodeSnippet\CodeSnippet\Entity\obj\Debug\Entity.dll
+D:\CodeSnippet\CodeSnippet\Entity\obj\Debug\Entity.pdb
+D:\CodeSnippet\CodeSnippet\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache

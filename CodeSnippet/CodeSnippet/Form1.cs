@@ -1,4 +1,5 @@
-﻿using Lib;
+﻿using Entity;
+using Lib;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,6 +23,7 @@ namespace CodeSnippet
         private void button1_Click(object sender, EventArgs e)
         {
             HttpHelper http = new HttpHelper();       
+           
             HttpItem item = new HttpItem()
             {
                 URL = "http://wap.chewu8.com/wap/wapAction!editCar.action",//URL     必需项
@@ -121,107 +123,78 @@ namespace CodeSnippet
             StringBuilder sb = new StringBuilder();
             if (Lib.RegexHelper.IsMatch(c, "<h2>查询结果</h2>"))
             {
-                sb.AppendFormat("查询目标页：OK");
-
+                sb.AppendFormat("查询目标页：OK /r/n");
+            var list = GetDrivePeccancyByHtml(c);
+            for (int i = 0; i < list.Count; i++)
+            {
+                sb.AppendFormat("扣分：{0} /r/n",list[i].point);
+                sb.AppendFormat("金额：{0} /r/n", list[i].money);
+                sb.AppendFormat("地址：{0} /r/n", list[i].adr);
+                sb.AppendFormat("时间：{0} /r/n", list[i].time);
+                sb.AppendFormat("行为：{0} /r/n", list[i].behavior);
+            }
 
 
             }
             else
             {
-                sb.AppendFormat("查询目标页：Error");
+                sb = new StringBuilder("查询目标页：Error");
             }
-                 
+            this.textBox1.Text = sb.ToString();
         }
 
-        private void xx()
+        private List<DrivePeccancyEntity> GetDrivePeccancyByHtml(string  html="")
         {
-          
+            //html = this.textBox1.Text.Trim();
             //html在成功抓取后的后续动作  提取自己想要的数据
             //1，把html里的空格和一些特殊字符全部替换掉
             //2. 准备合适的正则表达式
             //3. 正则准备好后 先把循环体搞出来
             //4，在循环体内 把想要的数据搞出来
-
-
-            string s = @"<你是tom>，<我是jerry>，<他是韩梅梅，哈哈>";
             string pattern = @"(?<=<tronclick=trClick([1-9]*))([\s\S]*?)(?<adr>())(?=<tdstyle=border-bottom:0px;></td></tr>)";
-            var html = this.textBox1.Text.Trim();
+           
             string result = Regex.Replace(html, @"\s", "").Replace("\"", "").Replace("(", "").Replace(")", "").Replace("：","");
             MatchCollection matches = Regex.Matches(result, pattern);
+            List<DrivePeccancyEntity> list = new List<DrivePeccancyEntity>();
             foreach (Match m in matches)
-            {               
-                var point = "";  //分数
-                var money = "";  //钱
+            {
+                #region 从匹配出来的数据 提取违章实体                
+               
+                var point = "-1";  //分数
+                var money = "-1";  //钱
                 var adr = "";  //发生地址
                 var time = ""; //时间
                 var behavior = ""; //行为
                 string pointreg = @"(?<=id=tdkf1>)([\s\S]*?)(?=</span></td>)";
-                Regex regex = new Regex(pointreg);
-                if (regex.IsMatch(m.Value))
-                {
-                    point = regex.Match(m.Value).Value;
-                }
-                else
-                {
-                    point = "-1";
-                }
+                Regex regex = new Regex(pointreg);              
+                point = regex.Match(m.Value).Value;              
                 string moneyreg = @"(?<=id=tdfk1>)([\s\S]*?)(?=</span></td>)";
-                 regex = new Regex(moneyreg);
-              
-                if (regex.IsMatch(m.Value))
-                {
-                    money = regex.Match(m.Value).Value;
-                }
-                else
-                {
-                    money = "-1";
-                }
+                regex = new Regex(moneyreg); 
+                money = regex.Match(m.Value).Value;
                 string adrreg = @"(?<=<span>地址)([\s\S]*?)(?=</span>)";
-                regex = new Regex(adrreg);
-              
-                if (regex.IsMatch(m.Value))
-                {
-                    adr = regex.Match(m.Value).Value;
-                }
-                else
-                {
-                    adr = "";
-                }
+                regex = new Regex(adrreg);             
+                adr = regex.Match(m.Value).Value;            
                 string timereg = @"(?<=<span>时间)([\s\S]*?)(?=</span>)";
                 regex = new Regex(timereg);
-             
-                if (regex.IsMatch(m.Value))
-                {
-                    time = regex.Match(m.Value).Value;
-                }
-                else
-                {
-                    time = "";
-                }
+                time = regex.Match(m.Value).Value;             
                 string behaviorreg = @"(?<=<span>行为)([\s\S]*?)(?=</span>)";
-                regex = new Regex(behaviorreg);
-              
-                if (regex.IsMatch(m.Value))
-                {
-                    behavior = regex.Match(m.Value).Value;
-                }
-                else
-                {
-                    behavior = "";
-                }
-
-             
+                regex = new Regex(behaviorreg); 
+                behavior = regex.Match(m.Value).Value;
+                #endregion
+                var model = new DrivePeccancyEntity();
+                model.point = point;
+                model.money = money;
+                model.adr = adr;
+                model.time = time;
+                model.behavior = behavior;
+                list.Add(model);
                 
             }
-           
-          
+            return list;
         
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            xx();
-        }
+      
 
 
 

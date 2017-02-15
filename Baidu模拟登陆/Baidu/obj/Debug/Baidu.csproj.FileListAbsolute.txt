@@ -1,0 +1,14 @@
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\obj\Debug\Baidu.FrmMain.resources
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\obj\Debug\Baidu.Properties.Resources.resources
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\obj\Debug\Baidu.csproj.GenerateResource.Cache
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\bin\Debug\Baidu.exe
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\bin\Debug\Baidu.pdb
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\bin\Debug\HtmlAgilityPack.dll
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\bin\Debug\Newtonsoft.Json.dll
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\bin\Debug\HtmlAgilityPack.pdb
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\bin\Debug\HtmlAgilityPack.xml
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\bin\Debug\Newtonsoft.Json.xml
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\obj\Debug\Baidu.exe
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\obj\Debug\Baidu.pdb
+c:\users\crazylin\documents\visual studio 2013\Projects\Baidu\Baidu\bin\Debug\pswd.js
+C:\Users\crazylin\Documents\visual studio 2013\Projects\Baidu\Baidu\obj\Debug\Baidu.csprojResolveAssemblyReference.cache

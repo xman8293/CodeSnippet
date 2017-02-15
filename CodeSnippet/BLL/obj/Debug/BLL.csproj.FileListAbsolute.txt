@@ -1,0 +1,13 @@
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\BLL.dll
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\BLL.pdb
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\Entity.dll
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\Lib.dll
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\MySql.Data.dll
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\Maticsoft.DBUtility.dll
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\System.Data.SQLite.dll
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\Entity.pdb
+D:\CodeSnippet\CodeSnippet\BLL\bin\Debug\Lib.pdb
+D:\CodeSnippet\CodeSnippet\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\CodeSnippet\CodeSnippet\BLL\obj\Debug\BLL.dll
+D:\CodeSnippet\CodeSnippet\BLL\obj\Debug\BLL.pdb

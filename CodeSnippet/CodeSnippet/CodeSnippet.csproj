@@ -50,10 +50,28 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KeyWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyWord.Designer.cs">
+      <DependentUpon>KeyWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kmp_KeyWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kmp_KeyWord.Designer.cs">
+      <DependentUpon>Kmp_KeyWord.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyWord.resx">
+      <DependentUpon>KeyWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kmp_KeyWord.resx">
+      <DependentUpon>Kmp_KeyWord.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -75,6 +93,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{c4c2870f-d045-4af0-b62f-850adb559ec1}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{08db488d-1224-4062-82b8-b54a614394b9}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lib\Lib.csproj">
       <Project>{ae88da67-372e-4ad3-b99f-081f26dcdbe7}</Project>
       <Name>Lib</Name>
